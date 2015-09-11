@@ -1,6 +1,6 @@
 {
   "name": "arch-request",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express middleware for arch-server to update application state with request information",
   "main": "index.js",
   "scripts": {
