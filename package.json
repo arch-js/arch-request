@@ -1,0 +1,25 @@
+{
+  "name": "arch-request",
+  "version": "1.0.0",
+  "description": "Express middleware for arch-server to update application state with request information",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/arch-js/arch-request.git"
+  },
+  "keywords": [
+    "arch",
+    "express",
+    "middleware",
+    "request"
+  ],
+  "author": "Tiago Azevedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arch-js/arch-request/issues"
+  },
+  "homepage": "https://github.com/arch-js/arch-request#readme"
+}
