@@ -4,7 +4,7 @@
   "description": "Express middleware for arch-server to update application state with request information",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "jasmine spec/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/arch-js/arch-request/issues"
   },
-  "homepage": "https://github.com/arch-js/arch-request#readme"
+  "homepage": "https://github.com/arch-js/arch-request#readme",
+  "devDependencies": {
+    "jasmine": "^2.3.2"
+  }
 }
