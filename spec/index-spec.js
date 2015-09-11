@@ -12,4 +12,15 @@ describe("request middleware", function() {
       done();
     });
   });
+
+  it("creates an appState object when none provided", function(done) {
+    var request = {
+      ip: '127.0.0.1'
+    };
+
+    middleware(request, null, function() {
+      expect(request.appState).toBeDefined();
+      done();
+    })
+  });
 });
