@@ -1,7 +1,8 @@
 module.exports = function(req, res, next) {
-  req.appState = req.appState || {};
+  if (typeof req.arch === 'undefined') throw new Error('request.arch not defined. Use arch default middlewares first.');
+  if (typeof req.arch.appState === 'undefined') throw new Error('request.arch.appState not defined. Use arch default middlewares first.');
 
-  req.appState.requestInfo = {
+  req.arch.appState.requestInfo = {
     ip: req.ip
   };
 
